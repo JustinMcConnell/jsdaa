@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Insertion Sort</title>
+
+<script src="util.js"></script>
+<script src="InsertionSort.js"></script>
+<script>
+function gogo(a) {
+  console.log("%o", a);
+  console.log("%o", Sort.insertionSort(a));
+}
+
+// add tests
+gogo(randomIntegerArray(10));
+gogo(randomIntegerArray(1));
+gogo(randomStringArray(10, 1));
+gogo(randomStringArray(10, 2));
+gogo(randomDateArray(10));
+gogo([]);
+
+</script>
+</head>
+<body>
+
+</body>
+</html>
